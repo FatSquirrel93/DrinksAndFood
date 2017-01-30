@@ -5,6 +5,11 @@ namespace App\DaF\Business\User;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
+/**
+ * Central User model for authentication and binding to current user.
+ *
+ * @package App\DaF\Business\User
+ */
 class User extends Authenticatable
 {
     use Notifiable;

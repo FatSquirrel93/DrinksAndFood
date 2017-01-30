@@ -5,6 +5,11 @@ namespace App\DaF\Security;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
+/**
+ * Controller for resetting the password
+ *
+ * @package App\DaF\Security
+ */
 class ResetPasswordController extends Controller
 {
     /*

@@ -7,6 +7,11 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use App\DaF\Business\User\User;
 
+/**
+ * Controller for handling the registration requests.
+ *
+ * @package App\DaF\Security
+ */
 class RegisterController extends Controller
 {
     /*

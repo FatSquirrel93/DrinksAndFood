@@ -5,6 +5,11 @@ namespace App\DaF\Security;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
+/**
+ * Controller for handling the forgotten password logic.
+ *
+ * @package App\DaF\Security
+ */
 class ForgotPasswordController extends Controller
 {
     /*
@@ -22,8 +27,6 @@ class ForgotPasswordController extends Controller
 
     /**
      * Create a new controller instance.
-     *
-     * @return void
      */
     public function __construct()
     {

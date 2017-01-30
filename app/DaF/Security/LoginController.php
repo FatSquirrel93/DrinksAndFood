@@ -5,6 +5,11 @@ namespace App\DaF\Security;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
+/**
+ * Controller handling all login requests.
+ *
+ * @package App\DaF\Security
+ */
 class LoginController extends Controller
 {
     /*
@@ -29,8 +34,6 @@ class LoginController extends Controller
 
     /**
      * Create a new controller instance.
-     *
-     * @return void
      */
     public function __construct()
     {
