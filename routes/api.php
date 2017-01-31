@@ -18,3 +18,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::middleware('auth:api')->get('/users', ['uses' => 'App\DaF\Business\User\Controller\UserApiController@getAll']);
+
+Route::get('/containers', ['uses' => 'App\DaF\Business\Container\Controller\ContainerApiController@getAll']);
+Route::post('/container/create', ['uses' => 'App\DaF\Business\Container\Controller\ContainerApiController@create']);
