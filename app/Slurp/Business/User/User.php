@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DaF\Business\User;
+namespace App\Slurp\Business\User;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -8,7 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 /**
  * Central User model for authentication and binding to current user.
  *
- * @package App\DaF\Business\User
+ * @package App\Slurp\Business\User
  */
 class User extends Authenticatable
 {

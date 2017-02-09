@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DaF\View;
+namespace App\Slurp\View;
 
 use App\Http\Controllers\Controller;
 

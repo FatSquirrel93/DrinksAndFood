@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DaF\Business\Unit;
+namespace App\Slurp\Business\Unit;
 
 use Illuminate\Database\Eloquent\Model;
 

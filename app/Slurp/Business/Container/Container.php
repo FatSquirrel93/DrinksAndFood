@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DaF\Business\Container;
+namespace App\Slurp\Business\Container;
 
 use Illuminate\Database\Eloquent\Model;
 

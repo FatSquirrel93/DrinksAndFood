@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\DaF\Business\User\User::class,
+            'model' => App\Slurp\Business\User\User::class,
         ],
 
         // 'users' => [

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\DaF\Business\User\Service;
+namespace App\Slurp\Business\User\Service;
 
-use App\DaF\Business\User\User;
+use App\Slurp\Business\User\User;
 
 /**
  * Service for any user related modifications.

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\DaF\Business\Container\Controller;
+namespace App\Slurp\Business\Container\Controller;
 
-use App\DaF\Business\Container\Container;
+use App\Slurp\Business\Container\Container;
 use App\Http\Controllers\Controller;
-use App\DaF\Business\Container\Service\ContainerService;
+use App\Slurp\Business\Container\Service\ContainerService;
 use Illuminate\Http\Request;
 
 /**

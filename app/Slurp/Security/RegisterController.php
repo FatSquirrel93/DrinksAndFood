@@ -1,11 +1,11 @@
 <?php
 
-namespace App\DaF\Security;
+namespace App\Slurp\Security;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
-use App\DaF\Business\User\User;
+use App\Slurp\Business\User\User;
 
 /**
  * Controller for handling the registration requests.

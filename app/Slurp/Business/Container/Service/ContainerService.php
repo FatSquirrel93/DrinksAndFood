@@ -1,8 +1,8 @@
 <?php
 
-namespace App\DaF\Business\Container\Service;
+namespace App\Slurp\Business\Container\Service;
 
-use App\DaF\Business\Container\Container;
+use App\Slurp\Business\Container\Container;
 
 /**
  * Service for any container related modifications.

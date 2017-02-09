@@ -1,9 +1,9 @@
 <?php
 
-namespace App\DaF\Business\User\Controller;
+namespace App\Slurp\Business\User\Controller;
 
 use App\Http\Controllers\Controller;
-use App\DaF\Business\User\Service\UserService;
+use App\Slurp\Business\User\Service\UserService;
 
 /**
  * API for any user related data exchange.

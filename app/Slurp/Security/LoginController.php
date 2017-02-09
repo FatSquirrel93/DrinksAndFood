@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DaF\Security;
+namespace App\Slurp\Security;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;

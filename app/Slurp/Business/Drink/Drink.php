@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DaF\Business\Drink;
+namespace App\Slurp\Business\Drink;
 
 use Illuminate\Database\Eloquent\Model;
 
