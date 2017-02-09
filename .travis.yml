@@ -8,6 +8,7 @@ before_install:
 before_script:
   - cp .env.travis .env
   - composer update --prefer-dist --prefer-stable
+  - php artisan key:generate
 script:
   - mkdir -p build/logs
   - phpunit --coverage-clover build/logs/clover.xml
